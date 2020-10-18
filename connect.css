@@ -1,0 +1,107 @@
+
+@font-face{
+    font-family: caviar_dream;
+    src: url(assets/font/caviar_dreams/CaviarDreams.ttf);
+}
+@font-face{
+    font-family: fallout;
+    src: url(assets/font/fallout/fallout.ttf);
+}
+@font-face{
+    font-family: gotham;
+    src: url(assets/font/gotham/GOTHAMLU.TTF);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+#connect{
+    background: #1b2838;
+}
+
+#connect .bg{
+    width: 100%;
+    position: fixed;
+    left: -40%;
+    height: 100%;
+}
+
+#connect .bg2{
+    width: 51%;
+    position: fixed;
+    left: 10%;
+    height: 55%;
+    top: 23%;
+}
+
+#connect #right{
+    background-color: rgb(36, 37, 51);
+    width: 50%;
+    position: fixed;
+    right: 0;
+    height: 100%;
+    z-index: 100;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+}
+
+#connect .formulaire{
+    padding: 35% 15%;
+}
+
+#connect #right .formulaire .text{
+    margin: 10%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#connect #right .formulaire .title{
+    font-family: caviar_dream;
+    font-size: 40px;
+    text-align: initial;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+
+#connect #right .formulaire .button{
+    border-radius: 1.5rem;
+    border-style: solid;
+    padding: 15px 15%;
+    transition: 900ms;
+}
+
+#connect #right .formulaire .button:hover{
+    border-color: rgb(105, 105, 105);
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+#connect #right .formulaire .button   span{
+    font-family: caviar_dream;
+}
+
+
+#connect #right .formulaire .info{
+    font-family: caviar_dream;
+    color: rgb(133, 133, 133);
+    margin: 0;
+}
+
+
+@media screen and (max-width: 1070px){
+    #connect #right{
+        background-color: rgb(36, 37, 51);
+        width: 100%;
+        position: fixed;
+        /* right: 0; */
+        height: 100%;
+        z-index: 100;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+  }
+  
+  
