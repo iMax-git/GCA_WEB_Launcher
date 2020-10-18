@@ -7,10 +7,10 @@
         <meta charset="UTF-8">
         <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
         <meta name="viewport" content="height=device-height">
-        <title>Gotham - Connection</title>
+        <title>Gotham - Launcher</title>
         <link rel="stylesheet" href="connect.css">
         <link rel="stylesheet" href="launcher.css">
-        <link rel="icon" href="../images/logow.png" />
+        <link rel="icon" href="assets/imax.ico" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
